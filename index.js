@@ -1,4 +1,4 @@
-var matches = require('matches-selector')
+var matches = require('component-matches-selector')
 
 module.exports = function (element, selector, checkYoSelf, root) {
   element = checkYoSelf ? {parentNode: element} : element
